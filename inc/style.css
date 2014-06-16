@@ -9,7 +9,8 @@ nav {
 	z-index: 1;
 }
 #links ul {
-	width: 60%;
+		border: 1px solid #000;
+	width: 48%;
 	min-width: 400px;
 	height: 5em;
 	padding: 0;
@@ -17,7 +18,7 @@ nav {
 	margin: 0;
 	text-align: center;
 	list-style-type: none;
-	font-family: 'Rambla', sans-serif;#
+	font-family: 'Rambla', sans-serif;
 	text-decoration: bold;
 }
 #links li {
@@ -30,27 +31,45 @@ nav {
 	background-color: #CCC;
 }
 #logo {
-	width: 39%;
+		border: 1px solid #000;
+	width: 49%;
 	height: 5em;
 	float: left;
+	padding-left: 30px;
 }
 footer {
 	clear: both;
+	color: #555;
+	width: 75%;
+	padding: 0px;
+	min-width: 800px;
+	height: 2em;
+	margin: auto;
+	font-size: 80%;
+	font-family: 'Rambla', sans-serif;
 }
 body {
 	margin: 0;
+	background-color: #E3E3E3;	
 }
 a {
 	text-decoration: none;
 	color: inherit;
 }
 .container {
+	background-color: #FFF;
 	clear: both;
 	margin: auto;
-	border: 1px dotted #000;
+	border: 1px solid #CCC;
 	padding: 10px;
 	padding-top: 5em;
 	width: 75%;
+	min-width: 800px;
 	z-index: 0;
 	font-family: sans-serif;
+}
+.container img {
+	display: block;
+	margin: auto;
+	padding-top: 20px;
 }
